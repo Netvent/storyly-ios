@@ -32,12 +32,12 @@ let package = Package(
         .binaryTarget(
             name: "Storyly",
             url: "https://prod-storyly-media.s3-eu-west-1.amazonaws.com/storyly-sdk/1.17.3/Storyly.zip",
-            checksum: "c1df599f59a3be7b1ff0959fc503b0f2b4a9e80d96910e6fa9256048d129c310"
+            checksum: "69d457ba4a9bc461350360072dc59fbed0d2c50628bfed739ba87d4cddfd9299"
         ),
         .binaryTarget(
             name: "SDWebImage",
-            url: "https://prod-storyly-media.s3.eu-west-1.amazonaws.com/storyly-sdk/SDWebImage/SDWebImage.xcframework.zip",
-            checksum: "975ffdf5054ebc8c0f8056c429dfee4298675ff7e8852d290d512101d451e6be"
+            url: "https://prod-storyly-media.s3.eu-west-1.amazonaws.com/storyly-sdk/SDWebImage/SDWebImage-5.12.1.zip",
+            checksum: "ba4cfc9e75af00e37577be2f7d23cadbb7293a818e02024509659119d75156ec"
         )
     ]
 )
