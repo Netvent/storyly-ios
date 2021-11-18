@@ -25,19 +25,13 @@ let package = Package(
         .target(name: "StorylyTargets",
             dependencies: [
                 .target(name: "Storyly"),
-                .target(name: "SDWebImage"),
             ],
             path: "Sources"
         ),
         .binaryTarget(
             name: "Storyly",
-            url: "https://prod-storyly-media.s3-eu-west-1.amazonaws.com/storyly-sdk/1.17.3/Storyly.zip",
-            checksum: "69d457ba4a9bc461350360072dc59fbed0d2c50628bfed739ba87d4cddfd9299"
-        ),
-        .binaryTarget(
-            name: "SDWebImage",
-            url: "https://prod-storyly-media.s3.eu-west-1.amazonaws.com/storyly-sdk/SDWebImage/SDWebImage-5.12.1.zip",
-            checksum: "ba4cfc9e75af00e37577be2f7d23cadbb7293a818e02024509659119d75156ec"
+            url: "https://prod-storyly-media.s3-eu-west-1.amazonaws.com/storyly-sdk/1.18.0/Storyly.zip",
+            checksum: "dd64e23f60a5193a91d037383ac4516ac163a71ab8fa8ee6894b0389c6cc1dba"
         )
     ]
 )
