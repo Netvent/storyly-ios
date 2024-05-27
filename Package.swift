@@ -30,8 +30,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Storyly",
-            url: "https://prod-storyly-media.s3-eu-west-1.amazonaws.com/storyly-sdk/2.18.2/Storyly.zip",
-            checksum: "fb6cf1cfa48230ecf65a4f7f22ab4cff3b77c04628744950f9d2fab89c0d43f3"
+            url: "https://prod-storyly-media.s3-eu-west-1.amazonaws.com/storyly-sdk/3.0.1/Storyly.zip",
+            checksum: "d03237367cf780fd9de75f78715eb331a1678e1eb8062a3510534a42f620241e"
         )
     ]
 )
